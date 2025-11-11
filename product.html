@@ -1,0 +1,548 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Product Details - Sakr Store</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="View detailed electronics product information at Sakr Store. Check technical specifications, compare features, read customer reviews, and add quality electronic devices to your cart.">
+    <meta name="keywords" content="product details, electronics specs, Sakr Store, tech products, electronic gadgets, product specifications">
+    <meta name="author" content="Sakr Store">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="product">
+    <meta property="og:url" content="https://www.sakrstore.com/product.html">
+    <meta property="og:title" content="Product Details - Sakr Store Electronics">
+    <meta property="og:description" content="View detailed electronics product information at Sakr Store. Check technical specifications, compare features, and read customer reviews.">
+    <meta property="og:image" content="https://www.sakrstore.com/images/sakr-store-favicon.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.sakrstore.com/product.html">
+    <meta property="twitter:title" content="Product Details - Sakr Store Electronics">
+    <meta property="twitter:description" content="View detailed electronics product information at Sakr Store. Check technical specifications, compare features, and read customer reviews.">
+    <meta property="twitter:image" content="https://www.sakrstore.com/images/sakr-store-favicon.png">
+    
+    <!-- Favicon - Multiple sizes for device compatibility -->
+    <link rel="icon" type="image/png" sizes="192x192" href="images/sakr-store-favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/sakr-store-favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/sakr-store-favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/sakr-store-favicon.png">
+    <link rel="shortcut icon" href="images/sakr-store-favicon.png">
+    
+    <!-- Modern fonts: Inter for English/Latin, Cairo for Arabic -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&family=Tajawal:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/product.css">
+  </head>
+  <body>
+    <header>
+      <h1><a href="index.html" class="store-title">Sakr Store</a></h1>
+      <nav>
+        <button id="theme-toggle-btn" aria-label="Toggle dark mode">
+          <!-- Modern inline SVG icons: sun (light) and moon (dark) -->
+          <svg id="light-icon" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor" d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12Zm0 4a1 1 0 0 1-1-1v-1a1 1 0 1 1 2 0v1a1 1 0 0 1-1 1Zm0-18a1 1 0 0 1-1-1V2a1 1 0 1 1 2 0v1a1 1 0 0 1-1 1Zm10 8a1 1 0 0 1-1 1h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 1 1ZM4 12a1 1 0 0 1-1 1H2a1 1 0 1 1 0-2h1a1 1 0 0 1 1 1Zm14.95 6.364a1 1 0 0 1-1.414 1.414l-.707-.707a1 1 0 0 1 1.414-1.414l.707.707ZM6.464 6.464A1 1 0 0 1 5.05 5.05l.707-.707A1 1 0 0 1 7.17 5.757l-.707.707Zm11.314-2.121a1 1 0 0 1 0 1.414l-.707.707A1 1 0 0 1 15.657 5.05l.707-.707a1 1 0 0 1 1.414 0ZM6.464 17.536a1 1 0 0 1-1.414 0l-.707-.707A1 1 0 1 1 5.05 14.95l.707.707a1 1 0 0 1 0 1.414Z"/>
+          </svg>
+          <svg id="dark-icon" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor" d="M21.64 13.64a1 1 0 0 0-1.05-.24A8 8 0 0 1 10.6 4.41a1 1 0 0 0-.24-1.05 1 1 0 0 0-1.09-.21A10 10 0 1 0 21.86 14.73a1 1 0 0 0-.22-1.09Zm-9.64 6.36a8 8 0 0 1-7.07-11.64 10 10 0 0 0 10.71 10.71A7.95 7.95 0 0 1 12 20Z"/>
+          </svg>
+        </button>
+        <a href="cart.html" class="cart-link" aria-label="View shopping cart">
+          <i class="ri-shopping-cart-2-line"></i>
+          <span class="cart-count" aria-label="Items in cart">0</span>
+        </a>
+      </nav>
+    </header>
+    <div id="menu-overlay" class="menu-overlay"></div>
+    <div id="search-overlay" class="search-overlay"></div>
+    
+    <main class="product-detail-page">
+      <!-- Breadcrumb navigation -->
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="index.html"><i class="ri-home-line"></i> Home</a></li>
+          <li><span id="breadcrumb-category">Products</span></li>
+          <li><span id="breadcrumb-product">Product Details</span></li>
+        </ol>
+      </nav>
+
+      <div class="product-container">
+        <div class="product-media-column">
+          <div class="product-image">
+            <img src="" alt="" id="product-image" loading="lazy">
+          </div>
+          <div class="product-thumbnails" id="product-thumbnails" aria-label="More product images"></div>
+        </div>
+        <div class="product-info">
+          <h1 id="product-title"></h1>
+          <div class="stock-status" id="stock-status"></div>
+          <p class="product-price" id="product-price"></p>
+          <p class="product-description" id="product-description"></p>
+          <div class="product-actions">
+            <div class="quantity-selector">
+              <button class="quantity-btn" id="decrease-quantity" aria-label="Decrease quantity">-</button>
+              <input type="number" id="quantity" value="1" min="1" aria-label="Product quantity">
+              <button class="quantity-btn" id="increase-quantity" aria-label="Increase quantity">+</button>
+            </div>
+            <button class="CartBtn" id="add-to-cart" type="button">
+              <span class="IconContainer"> 
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+              </span>
+              <p class="text">Add to Cart</p>
+            </button>
+            <button class="WhatsAppBtn" id="whatsapp-inquiry" type="button">
+              <span class="IconContainer">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="rgb(255, 255, 255)" class="whatsapp-icon"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+              </span>
+              <span class="text">Any questions? Feel free to ask us</span>
+            </button>
+          </div>
+          
+          <!-- Trust badges -->
+          <div class="trust-badges">
+            <div class="trust-badge">
+              <i class="ri-shield-check-line"></i>
+              <span>Secure Payment</span>
+            </div>
+            <div class="trust-badge">
+              <i class="ri-vip-crown-line"></i>
+              <span>Quality Guarantee</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Related Products Section -->
+      <section class="related-products-section">
+        <h2>You Might Also Like</h2>
+        <div class="related-products-grid" id="related-products"></div>
+      </section>
+    </main>
+
+    <!-- Toast notification container -->
+    <div id="toast-container" class="toast-container" aria-live="polite"></div>
+
+    <!-- Lightbox overlay for product images -->
+    <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-label="Product image gallery">
+      <button class="lightbox-close" aria-label="Close gallery">&times;</button>
+      <button class="lightbox-nav prev" aria-label="Previous image">&#10094;</button>
+      <img id="lightbox-image" alt="Product image enlarged">
+      <button class="lightbox-nav next" aria-label="Next image">&#10095;</button>
+    </div>
+    
+    <!-- Cart FAB for Mobile -->
+    <a href="cart.html" class="cart-fab" aria-label="View shopping cart">
+      <i class="ri-shopping-cart-2-line"></i>
+      <span class="cart-count" aria-label="Items in cart">0</span>
+    </a>
+    
+    <script src="js/app.js"></script>
+    <script>
+      // Product page specific JavaScript
+      document.addEventListener('DOMContentLoaded', () => {
+        const urlParams = new URLSearchParams(window.location.search);
+        const productId = parseInt(urlParams.get('id'));
+        
+        // Quantity controls
+        const quantityInput = document.getElementById('quantity');
+        const decreaseBtn = document.getElementById('decrease-quantity');
+        const increaseBtn = document.getElementById('increase-quantity');
+        
+        let maxAvailableStock = Infinity; // Will be set when product loads
+        
+        // Update quantity controls based on available stock
+        function updateQuantityControls() {
+          const currentValue = parseInt(quantityInput.value) || 1;
+          const cart = getCart();
+          const cartQty = cart.get(String(productId)) || 0;
+          const remainingStock = maxAvailableStock - cartQty;
+          
+          // Disable decrease if at minimum
+          decreaseBtn.disabled = currentValue <= 1;
+          
+          // Disable increase if at maximum available stock
+          increaseBtn.disabled = currentValue >= remainingStock;
+          
+          // Update input max attribute
+          quantityInput.max = remainingStock;
+          
+          // Ensure current value doesn't exceed available stock
+          if (currentValue > remainingStock) {
+            quantityInput.value = remainingStock;
+          }
+        }
+        
+        decreaseBtn.addEventListener('click', () => {
+          const currentValue = parseInt(quantityInput.value);
+          if (currentValue > 1) {
+            quantityInput.value = currentValue - 1;
+            updateQuantityControls();
+          }
+        });
+        
+        increaseBtn.addEventListener('click', () => {
+          const currentValue = parseInt(quantityInput.value);
+          const cart = getCart();
+          const cartQty = cart.get(String(productId)) || 0;
+          const remainingStock = maxAvailableStock - cartQty;
+          
+          if (currentValue < remainingStock) {
+            quantityInput.value = currentValue + 1;
+            updateQuantityControls();
+          }
+        });
+        
+        // Validate input on change
+        quantityInput.addEventListener('input', () => {
+          const cart = getCart();
+          const cartQty = cart.get(String(productId)) || 0;
+          const remainingStock = maxAvailableStock - cartQty;
+          let value = parseInt(quantityInput.value) || 1;
+          
+          if (value < 1) value = 1;
+          if (value > remainingStock) value = remainingStock;
+          
+          quantityInput.value = value;
+          updateQuantityControls();
+        });
+
+        // Load and display product details
+        let currentImageIndex = 0; // track current main image index for lightbox
+        let currentImages = [];    // track all images for this product
+
+        fetch('products.json')
+          .then(response => response.json())
+          .then(products => {
+            const product = products.find(p => p.id === productId);
+            if (product) {
+              // Resolve images: primary + gallery (new schema) with fallback to legacy `image`
+              const primary = (product.images && product.images.primary) ? product.images.primary : (product.image || '');
+              const gallery = (product.images && Array.isArray(product.images.gallery)) ? product.images.gallery : [];
+              const allImages = [primary, ...gallery].filter(Boolean);
+              currentImages = allImages;
+
+              const mainImgEl = document.getElementById('product-image');
+              mainImgEl.src = allImages[0] || '';
+              mainImgEl.alt = product.name || 'Product image';
+              currentImageIndex = 0;
+
+              // Clicking the main image opens the lightbox at the current index
+              mainImgEl.style.cursor = allImages.length > 0 ? 'zoom-in' : 'default';
+              mainImgEl.addEventListener('click', () => {
+                if (currentImages.length > 0) openLightbox(currentImageIndex);
+              });
+
+              const productTitle = document.getElementById('product-title');
+              productTitle.textContent = product.name;
+              
+              // Add language attributes for Arabic support
+              if (hasArabic(product.name)) {
+                productTitle.setAttribute('lang', 'ar');
+                productTitle.setAttribute('dir', 'rtl');
+              }
+              
+              // Add badges for "New" and "Sale" - they can coexist
+              const productImageContainer = document.querySelector('.product-image');
+              
+              // Add "New" badge if product is new
+              if (product.isNew && productImageContainer) {
+                const newBadge = document.createElement('span');
+                newBadge.className = 'product-detail-new-badge';
+                newBadge.textContent = 'New';
+                productImageContainer.appendChild(newBadge);
+              }
+              
+              // Add "Sale" badge if product has discount
+              if (product.discount && productImageContainer) {
+                const saleBadge = document.createElement('span');
+                saleBadge.className = 'product-detail-sale-badge';
+                saleBadge.textContent = 'Sale';
+                productImageContainer.appendChild(saleBadge);
+              }
+              
+              // Display stock status
+              const stockStatus = document.getElementById('stock-status');
+              const stock = product.stock || 0;
+              
+              // Set max available stock for quantity controls
+              maxAvailableStock = stock;
+              
+              if (stock > 10) {
+                stockStatus.innerHTML = '<i class="ri-checkbox-circle-line"></i> In Stock';
+                stockStatus.className = 'stock-status in-stock';
+              } else if (stock > 0 && stock <= 10) {
+                stockStatus.innerHTML = `<i class="ri-error-warning-line"></i> Only ${stock} left in stock!`;
+                stockStatus.className = 'stock-status low-stock';
+              } else {
+                stockStatus.innerHTML = '<i class="ri-close-circle-line"></i> Sold Out';
+                stockStatus.className = 'stock-status out-of-stock';
+              }
+              
+              // Initialize quantity controls with stock limits
+              updateQuantityControls();
+              
+              if (product.discount) {
+                document.getElementById('product-price').innerHTML = `<span class='product-original-price'>EGP ${product.price.toFixed(2)}</span> <span class='product-discounted-price'>EGP ${product.discountedPrice.toFixed(2)}</span>`;
+              } else {
+                document.getElementById('product-price').textContent = `EGP ${product.price.toFixed(2)}`;
+              }
+              
+              const productDesc = document.getElementById('product-description');
+              productDesc.textContent = product.description || '';
+              
+              // Add language attributes for Arabic support in description
+              if (hasArabic(product.description)) {
+                productDesc.setAttribute('lang', 'ar');
+                productDesc.setAttribute('dir', 'rtl');
+              }
+
+              // Update breadcrumb
+              const breadcrumbCategory = document.getElementById('breadcrumb-category');
+              const breadcrumbProduct = document.getElementById('breadcrumb-product');
+              if (product.category) {
+                breadcrumbCategory.textContent = product.category;
+              }
+              if (product.name) {
+                breadcrumbProduct.textContent = product.name;
+              }
+
+              // Build thumbnails if more than one image
+              const thumbsContainer = document.getElementById('product-thumbnails');
+              if (thumbsContainer) {
+                thumbsContainer.innerHTML = '';
+                if (allImages.length > 1) {
+                  allImages.forEach((src, idx) => {
+                    const btn = document.createElement('button');
+                    btn.className = 'thumbnail-btn' + (idx === 0 ? ' active' : '');
+                    btn.type = 'button';
+                    btn.setAttribute('aria-label', 'View image ' + (idx + 1));
+                    const img = document.createElement('img');
+                    img.src = src;
+                    img.alt = product.name ? `${product.name} - image ${idx + 1}` : `Image ${idx + 1}`;
+                    img.loading = 'lazy';
+                    btn.appendChild(img);
+                    btn.addEventListener('click', () => {
+                      mainImgEl.src = src;
+                      currentImageIndex = idx;
+                      thumbsContainer.querySelectorAll('.thumbnail-btn').forEach(el => el.classList.remove('active'));
+                      btn.classList.add('active');
+                    });
+                    thumbsContainer.appendChild(btn);
+                  });
+                } else {
+                  // Hide the thumbnails container if only one image
+                  thumbsContainer.style.display = 'none';
+                }
+              }
+
+              // Load related products (same category, exclude current product)
+              const relatedProducts = products.filter(p => 
+                p.category === product.category && p.id !== productId
+              ).slice(0, 4); // Show max 4 related products
+              
+              const relatedGrid = document.getElementById('related-products');
+              if (relatedProducts.length > 0) {
+                relatedProducts.forEach(relatedProduct => {
+                  const card = document.createElement('div');
+                  card.className = 'product-card';
+                  
+                  const primary = (relatedProduct.images && relatedProduct.images.primary) 
+                    ? relatedProduct.images.primary 
+                    : (relatedProduct.image || '');
+                  
+                  const priceHTML = relatedProduct.discount 
+                    ? `<span class="product-original-price">EGP ${relatedProduct.price.toFixed(2)}</span> <span class="product-discounted-price">EGP ${relatedProduct.discountedPrice.toFixed(2)}</span>`
+                    : `EGP ${relatedProduct.price.toFixed(2)}`;
+                  
+                  const newBadge = relatedProduct.isNew ? '<span class="new-badge">New</span>' : '';
+                  const saleBadge = relatedProduct.discount ? '<span class="sale-badge">Sale</span>' : '';
+                  
+                  // Detect language for product name
+                  const nameLang = getLanguageCode(relatedProduct.name);
+                  const nameDir = getTextDirection(relatedProduct.name);
+                  
+                  card.innerHTML = `
+                    <a href="product.html?id=${relatedProduct.id}" class="product-link">
+                      <div class="product-media">
+                        ${newBadge}
+                        ${saleBadge}
+                        <img src="${primary}" alt="${relatedProduct.name}" class="product-img" loading="lazy">
+                      </div>
+                      <h3 class="product-name" lang="${nameLang}" dir="${nameDir}">${relatedProduct.name}</h3>
+                      <p class="product-price">${priceHTML}</p>
+                    </a>
+                  `;
+                  relatedGrid.appendChild(card);
+                });
+              } else {
+                // Hide the section if no related products
+                document.querySelector('.related-products-section').style.display = 'none';
+              }
+            } else {
+              window.location.href = 'index.html'; // Redirect if product not found
+            }
+          })
+          .catch(error => {
+            console.error('Error loading product:', error);
+            window.location.href = 'index.html';
+          });
+
+        // Add to cart functionality
+        const addToCartBtn = document.getElementById('add-to-cart');
+        
+        // Function to update button state based on cart quantity
+        function updateProductButtonState() {
+          fetch('products.json')
+            .then(response => response.json())
+            .then(products => {
+              const product = products.find(p => p.id === productId);
+              if (!product) return;
+              
+              const cart = getCart();
+              const cartQty = cart.get(String(productId)) || 0;
+              
+              if (product.stock !== undefined && (product.stock === 0 || cartQty >= product.stock)) {
+                addToCartBtn.disabled = true;
+                addToCartBtn.classList.add('disabled');
+                addToCartBtn.querySelector('.text').textContent = 'Out of Stock';
+                quantityInput.disabled = true;
+                decreaseBtn.disabled = true;
+                increaseBtn.disabled = true;
+              } else {
+                addToCartBtn.disabled = false;
+                addToCartBtn.classList.remove('disabled');
+                addToCartBtn.querySelector('.text').textContent = 'Add to Cart';
+                quantityInput.disabled = false;
+                
+                // Update quantity controls
+                updateQuantityControls();
+              }
+            });
+        }
+        
+        // Initial button state check
+        updateProductButtonState();
+        
+        addToCartBtn.addEventListener('click', () => {
+          const quantity = parseInt(quantityInput.value);
+          
+          // Fetch product and check stock again before adding
+          fetch('products.json')
+            .then(response => response.json())
+            .then(products => {
+              const product = products.find(p => p.id === productId);
+              if (!product) {
+                alert('Product not found');
+                return;
+              }
+              
+              if (product.stock !== undefined && product.stock === 0) {
+                alert('This product is out of stock');
+                return;
+              }
+              
+              const cart = getCart();
+              const currentQty = cart.get(String(productId)) || 0;
+              
+              if (product.stock !== undefined && (currentQty + quantity) > product.stock) {
+                alert(`Cannot add ${quantity} items. Only ${product.stock - currentQty} more available in stock.`);
+                return;
+              }
+              
+              // Add to cart - add quantity at once then show single notification
+              const cartMap = getCart();
+              const key = String(productId);
+              cartMap.set(key, currentQty + quantity);
+              saveCart(cartMap);
+              updateCartCounter();
+              
+              // Show notification with the product data
+              showToast(productId + ' added to cart', product);
+              
+              // Update button state after adding
+              updateProductButtonState();
+            })
+            .catch(error => {
+              console.error('Error checking stock:', error);
+              alert('Error adding to cart');
+            });
+        });
+
+        // WhatsApp inquiry functionality
+        const whatsappBtn = document.getElementById('whatsapp-inquiry');
+        whatsappBtn.addEventListener('click', () => {
+          fetch('products.json')
+            .then(response => response.json())
+            .then(products => {
+              const product = products.find(p => p.id === productId);
+              if (!product) {
+                alert('Product information not available');
+                return;
+              }
+              
+              // Get the current product page URL
+              const productUrl = window.location.href;
+              
+              // Create WhatsApp message with product name and link
+              const message = `Hi, I have a question about ${product.name}\n${productUrl}`;
+              const encodedMessage = encodeURIComponent(message);
+              const whatsappNumber = '201108563748'; // Sakr Store WhatsApp number
+              const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+              
+              // Open WhatsApp in a new tab
+              window.open(whatsappUrl, '_blank');
+            })
+            .catch(error => {
+              console.error('Error loading product for WhatsApp:', error);
+              alert('Error preparing WhatsApp message');
+            });
+        });
+
+        // Lightbox logic
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-image');
+        const btnPrev = document.querySelector('.lightbox-nav.prev');
+        const btnNext = document.querySelector('.lightbox-nav.next');
+        const btnClose = document.querySelector('.lightbox-close');
+
+        function setLightboxImage(index) {
+          if (!currentImages.length) return;
+          currentImageIndex = (index + currentImages.length) % currentImages.length;
+          lightboxImg.src = currentImages[currentImageIndex];
+        }
+
+        function openLightbox(index = 0) {
+          if (!currentImages.length) return;
+          setLightboxImage(index);
+          lightbox.classList.add('open');
+          lightbox.setAttribute('aria-hidden', 'false');
+          document.body.classList.add('lb-open');
+        }
+
+        function closeLightbox() {
+          lightbox.classList.remove('open');
+          lightbox.setAttribute('aria-hidden', 'true');
+          document.body.classList.remove('lb-open');
+        }
+
+        btnPrev.addEventListener('click', () => setLightboxImage(currentImageIndex - 1));
+        btnNext.addEventListener('click', () => setLightboxImage(currentImageIndex + 1));
+        btnClose.addEventListener('click', closeLightbox);
+        lightbox.addEventListener('click', (e) => {
+          if (e.target === lightbox) closeLightbox(); // click on backdrop closes
+        });
+
+        document.addEventListener('keydown', (e) => {
+          if (!lightbox.classList.contains('open')) return;
+          if (e.key === 'Escape') closeLightbox();
+          if (e.key === 'ArrowLeft') setLightboxImage(currentImageIndex - 1);
+          if (e.key === 'ArrowRight') setLightboxImage(currentImageIndex + 1);
+        });
+      });
+    </script>
+  </body>
+</html>
