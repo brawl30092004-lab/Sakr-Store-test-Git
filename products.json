@@ -19,7 +19,7 @@
     "id": 2,
     "name": "Office Chair",
     "price": 199.99,
-    "description": "Ergonomic office chair",
+    "description": "Premium ergonomic office chair with lumbar support",
     "image": "images/product-2-primary.webp",
     "images": {
       "primary": "images/product-2-primary.webp",
