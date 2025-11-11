@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Test Laptop",
+    "price": 999.99,
+    "description": "High-performance laptop",
+    "image": "images/product-1-primary.webp",
+    "images": {
+      "primary": "images/product-1-primary.webp",
+      "gallery": []
+    },
+    "category": "Electronics",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 10,
+    "isNew": true
+  },
+  {
+    "id": 2,
+    "name": "Office Chair",
+    "price": 199.99,
+    "description": "Ergonomic office chair",
+    "image": "images/product-2-primary.webp",
+    "images": {
+      "primary": "images/product-2-primary.webp",
+      "gallery": []
+    },
+    "category": "Furniture",
+    "discount": false,
+    "discountedPrice": 0.00,
+    "stock": 7,
+    "isNew": true
+  },
+  {
+    "id": 3,
+    "name": "Coffee Maker",
+    "price": 79.99,
+    "description": "Automatic coffee maker",
+    "image": "images/product-3-primary.webp",
+    "images": {
+      "primary": "images/product-3-primary.webp",
+      "gallery": []
+    },
+    "category": "Appliances",
+    "discount": false,
+    "discountedPrice": 79.99,
+    "stock": 3,
+    "isNew": true
+  }
+]
