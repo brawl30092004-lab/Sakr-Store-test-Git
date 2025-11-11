@@ -18,13 +18,8 @@
   {
     "id": 2,
     "name": "Office Chair",
-<<<<<<< Updated upstream
     "price": 199.99,
     "description": "Ergonomic office chair",
-=======
-    "price": 249.99,
-    "description": "Premium ergonomic office chair with lumbar support",
->>>>>>> Stashed changes
     "image": "images/product-2-primary.webp",
     "images": {
       "primary": "images/product-2-primary.webp",
