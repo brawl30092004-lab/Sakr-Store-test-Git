@@ -49,8 +49,8 @@
   },
   {
     "id": 4,
-    "name": "Wireless Mouse bluethoth",
-    "price": 49.99,
+    "name": "Wireless Mouse",
+    "price": 69.99,
     "description": "Wireless optical mouse.",
     "image": "images/product-4-primary.webp",
     "images": {
