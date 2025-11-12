@@ -34,7 +34,7 @@
   {
     "id": 3,
     "name": "Coffee Maker",
-    "price": 89.99,
+    "price": 69.99,
     "description": "Automatic coffee maker",
     "image": "images/product-3-primary.webp",
     "images": {
