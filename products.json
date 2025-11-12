@@ -26,8 +26,8 @@
       "gallery": []
     },
     "category": "Furniture",
-    "discount": true,
-    "discountedPrice": 100.00,
+    "discount": false,
+    "discountedPrice": 2449.99,
     "stock": 7,
     "isNew": true
   },
