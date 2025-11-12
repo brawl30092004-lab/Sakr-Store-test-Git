@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Professional laptop",
-    "price": 1999.99,
+    "price": 1000.00,
     "description": "Gaming laptop",
     "image": "images/product-1-primary.webp",
     "images": {
@@ -18,7 +18,7 @@
   {
     "id": 2,
     "name": "Chair",
-    "price": 2449.99,
+    "price": 2000.00,
     "description": "Ergonomic office chair Updated on GitHub",
     "image": "images/product-2-primary.webp",
     "images": {
@@ -34,7 +34,7 @@
   {
     "id": 3,
     "name": "Coffee Maker 3000",
-    "price": 179.99,
+    "price": 3000.00,
     "description": "Automatic coffee maker",
     "image": "images/product-3-primary.webp",
     "images": {
@@ -50,7 +50,7 @@
   {
     "id": 4,
     "name": "test",
-    "price": 100.00,
+    "price": 4000.00,
     "description": "this is a test",
     "image": "images/product-4-primary.webp",
     "images": {
