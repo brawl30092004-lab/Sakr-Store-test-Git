@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Professional laptop",
-    "price": 3999.99,
+    "price": 1999.99,
     "description": "Gaming laptop",
     "image": "images/product-1-primary.webp",
     "images": {
