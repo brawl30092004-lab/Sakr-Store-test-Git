@@ -2,8 +2,8 @@
   {
     "id": 1,
     "name": "Test Laptop",
-    "price": 1200.00,
-    "description": "Updated on GitHub",
+    "price": 1500.00,
+    "description": "Gaming laptop",
     "image": "images/product-1-primary.webp",
     "images": {
       "primary": "images/product-1-primary.webp",
@@ -18,8 +18,8 @@
   {
     "id": 2,
     "name": "Office Chair",
-    "price": 299.99,
-    "description": "Updated on GitHub",
+    "price": 450.00,
+    "description": "Ergonomic office chair Updated on GitHub",
     "image": "images/product-2-primary.webp",
     "images": {
       "primary": "images/product-2-primary.webp",
