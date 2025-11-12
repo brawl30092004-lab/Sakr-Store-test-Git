@@ -2,8 +2,8 @@
   {
     "id": 1,
     "name": "Test Laptop",
-    "price": 1500,
-    "description": "High-performance laptop and very good",
+    "price": 1200.00,
+    "description": "Gaming laptop",
     "image": "images/product-1-primary.webp",
     "images": {
       "primary": "images/product-1-primary.webp",
@@ -11,15 +11,15 @@
     },
     "category": "Electronics",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 10,
     "isNew": true
   },
   {
     "id": 2,
     "name": "Office Chair",
-    "price": 199.99,
-    "description": "Updated on GitHub",
+    "price": 299.99,
+    "description": "Ergonomic office chair Updated on GitHub",
     "image": "images/product-2-primary.webp",
     "images": {
       "primary": "images/product-2-primary.webp",
@@ -27,7 +27,7 @@
     },
     "category": "Furniture",
     "discount": false,
-    "discountedPrice": 0,
+    "discountedPrice": 0.00,
     "stock": 7,
     "isNew": true
   },
