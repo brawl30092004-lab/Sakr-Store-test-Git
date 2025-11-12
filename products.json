@@ -30,21 +30,5 @@
     "discountedPrice": 0.00,
     "stock": 7,
     "isNew": true
-  },
-  {
-    "id": 3,
-    "name": "Coffee Maker",
-    "price": 69.99,
-    "description": "Automatic coffee maker",
-    "image": "images/product-3-primary.webp",
-    "images": {
-      "primary": "images/product-3-primary.webp",
-      "gallery": []
-    },
-    "category": "Appliances",
-    "discount": false,
-    "discountedPrice": 79.99,
-    "stock": 3,
-    "isNew": true
   }
 ]
