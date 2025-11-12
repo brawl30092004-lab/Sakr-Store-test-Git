@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "name": "Test Laptop",
-    "price": 1600.00,
+    "name": "Professional laptop",
+    "price": 1500.00,
     "description": "Gaming laptop",
     "image": "images/product-1-primary.webp",
     "images": {
