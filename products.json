@@ -46,21 +46,5 @@
     "discountedPrice": 79.99,
     "stock": 3,
     "isNew": true
-  },
-  {
-    "id": 4,
-    "name": "Wireless Mouse",
-    "price": 69.99,
-    "description": "Wireless optical mouse.",
-    "image": "images/product-4-primary.webp",
-    "images": {
-      "primary": "images/product-4-primary.webp",
-      "gallery": []
-    },
-    "category": "Electronics",
-    "discount": false,
-    "discountedPrice": 0.00,
-    "stock": 10,
-    "isNew": true
   }
 ]
