@@ -2,14 +2,14 @@
   {
     "id": 1,
     "name": "Professional laptop",
-    "price": 999.99,
+    "price": 99900.99,
     "description": "Gaming laptop",
     "image": "images/product-1-primary.webp",
     "images": {
       "primary": "images/product-1-primary.webp",
       "gallery": []
     },
-    "category": "Electronics",
+    "category": "Electronicsss",
     "discount": false,
     "discountedPrice": 0.00,
     "stock": 10,
@@ -17,8 +17,8 @@
   },
   {
     "id": 2,
-    "name": "Office Chair",
-    "price": 450.00,
+    "name": "Office Chairrr",
+    "price": 449.99,
     "description": "Ergonomic office chair Updated on GitHub",
     "image": "images/product-2-primary.webp",
     "images": {
