@@ -51,7 +51,7 @@
     "id": 4,
     "name": "Wireless Mouse",
     "price": 49.99,
-    "description": "Wireless optical mouse",
+    "description": "Wireless optical mouse.",
     "image": "images/product-4-primary.webp",
     "images": {
       "primary": "images/product-4-primary.webp",
