@@ -2,65 +2,65 @@
   {
     "id": 1,
     "name": "Professional laptop",
-    "price": 100.00,
+    "price": 100,
     "description": "Gaming laptop",
+    "category": "Electronicsss",
+    "stock": 100,
+    "isNew": true,
+    "discount": false,
+    "discountedPrice": 0,
     "image": "images/product-1-primary.webp",
     "images": {
       "primary": "images/product-1-primary.webp",
       "gallery": []
-    },
-    "category": "Electronicsss",
-    "discount": false,
-    "discountedPrice": 0.00,
-    "stock": 100,
-    "isNew": true
+    }
   },
   {
     "id": 2,
     "name": "Chair",
-    "price": 20.00,
+    "price": 3000,
     "description": "Ergonomic office chair Updated on GitHub",
+    "category": "Furniture",
+    "stock": 7,
+    "isNew": true,
+    "discount": false,
+    "discountedPrice": 2449.99,
     "image": "images/product-2-primary.webp",
     "images": {
       "primary": "images/product-2-primary.webp",
       "gallery": []
-    },
-    "category": "Furniture",
-    "discount": false,
-    "discountedPrice": 2449.99,
-    "stock": 7,
-    "isNew": true
+    }
   },
   {
     "id": 3,
     "name": "Coffee Maker 3000",
-    "price": 3.00,
+    "price": 3,
     "description": "Automatic coffee maker",
+    "category": "Appliances",
+    "stock": 30,
+    "isNew": true,
+    "discount": false,
+    "discountedPrice": 79.99,
     "image": "images/product-3-primary.webp",
     "images": {
       "primary": "images/product-3-primary.webp",
       "gallery": []
-    },
-    "category": "Appliances",
-    "discount": false,
-    "discountedPrice": 79.99,
-    "stock": 30,
-    "isNew": true
+    }
   },
   {
     "id": 4,
     "name": "test",
-    "price": 5.00,
+    "price": 1000,
     "description": "this is a test",
+    "category": "test",
+    "stock": 0,
+    "isNew": true,
+    "discount": false,
+    "discountedPrice": 0,
     "image": "images/product-4-primary.webp",
     "images": {
       "primary": "images/product-4-primary.webp",
       "gallery": []
-    },
-    "category": "test",
-    "discount": false,
-    "discountedPrice": 0.00,
-    "stock": 0,
-    "isNew": true
+    }
   }
 ]
