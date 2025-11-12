@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Professional laptop",
-    "price": 999.99,
+    "price": 1999.99,
     "description": "Gaming laptop",
     "image": "images/product-1-primary.webp",
     "images": {
@@ -12,7 +12,7 @@
     "category": "Electronicsss",
     "discount": false,
     "discountedPrice": 0.00,
-    "stock": 10,
+    "stock": 100,
     "isNew": true
   },
   {
@@ -26,15 +26,15 @@
       "gallery": []
     },
     "category": "Furniture",
-    "discount": false,
-    "discountedPrice": 0.00,
+    "discount": true,
+    "discountedPrice": 100.00,
     "stock": 7,
     "isNew": true
   },
   {
     "id": 3,
-    "name": "Coffee Maker",
-    "price": 69.99,
+    "name": "Coffee Maker 3000",
+    "price": 9969.99,
     "description": "Automatic coffee maker",
     "image": "images/product-3-primary.webp",
     "images": {
@@ -44,7 +44,7 @@
     "category": "Appliances",
     "discount": false,
     "discountedPrice": 79.99,
-    "stock": 3,
+    "stock": 30,
     "isNew": true
   }
 ]
