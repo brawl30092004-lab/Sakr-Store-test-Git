@@ -11,7 +11,7 @@
     },
     "category": "Electronics",
     "discount": false,
-    "discountedPrice": 0.00,
+    "discountedPrice": 0,
     "stock": 10,
     "isNew": true
   },
@@ -27,7 +27,7 @@
     },
     "category": "Furniture",
     "discount": false,
-    "discountedPrice": 0.00,
+    "discountedPrice": 0,
     "stock": 7,
     "isNew": true
   },
