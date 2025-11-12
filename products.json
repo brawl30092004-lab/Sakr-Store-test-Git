@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Test Laptop",
-    "price": 1099.99,
+    "price": 999.99,
     "description": "High-performance laptop",
     "image": "images/product-1-primary.webp",
     "images": {
