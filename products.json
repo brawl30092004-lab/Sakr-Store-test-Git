@@ -2,8 +2,8 @@
   {
     "id": 1,
     "name": "Professional laptop",
-    "price": 9.99,
-    "description": "AboAyman laptop",
+    "price": 123456.00,
+    "description": "Gaming laptop",
     "category": "Electronicsss",
     "stock": 80,
     "isNew": true,
