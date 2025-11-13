@@ -2,13 +2,13 @@
   {
     "id": 1,
     "name": "Professional laptop",
-    "price": 20.00,
+    "price": 20,
     "description": "Gaming laptop",
     "category": "Electronicsss",
     "stock": 80,
     "isNew": true,
     "discount": false,
-    "discountedPrice": 0.00,
+    "discountedPrice": 0,
     "image": "images/product-1-primary.webp",
     "images": {
       "primary": "images/product-1-primary.webp",
@@ -18,7 +18,7 @@
   {
     "id": 2,
     "name": "Chair",
-    "price": 300.00,
+    "price": 300,
     "description": "Ergonomic office chair Updated on GitHub",
     "category": "Furniture",
     "stock": 70,
@@ -34,7 +34,7 @@
   {
     "id": 3,
     "name": "Coffee Maker 3000",
-    "price": 3.00,
+    "price": 3,
     "description": "Automatic coffee maker",
     "category": "Appliances",
     "stock": 30,
@@ -50,7 +50,7 @@
   {
     "id": 4,
     "name": "test",
-    "price": 1000.00,
+    "price": 1000,
     "description": "this is a test",
     "category": "test",
     "stock": 6,
