@@ -18,7 +18,7 @@
   {
     "id": 2,
     "name": "Chair",
-    "price": 2000,
+    "price": 200,
     "description": "Ergonomic office chair Updated on GitHub",
     "category": "Furniture",
     "stock": 70,
